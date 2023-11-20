@@ -1,0 +1,12 @@
+.card{
+    background: #444444;
+}
+.card-body h5{
+    color: #FFFFFF;
+}
+.card-body p{
+    color: #F5F5F5;
+}
+.card{
+    margin: 10px;
+}
