@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DoBu Martial Arts | Register</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/27d88acb3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/contactUs.css">
+    <link rel="stylesheet" href="style/classes.css">
+    <link rel="stylesheet" href="style/instruction.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        .signup {
+            margin-top: 60px;
+        }
+        .placeholdertext::placeholder{
+    color: #fff;
+  }
+    </style>
+</head>
+<body>
+<nav id="header"></nav>
+<div class="container signup">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card text-left" style="background-color: #333; color: #fff;">
+                <div class="card-body">
+                    <div class="text-center">                    
+                        <h1 class="mb-4">Register</h1> 
+                    </div>
+                    <form onsubmit="event.preventDefault()">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label" style="color:  #999999;">Name</label>
+                            <input type="text" id="fullName" class="form-control placeholdertext" placeholder="Full Name" style="background-color: #444; color: #fff; border: 1px solid #666;">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label" style="color: #999999;">Email Address</label>
+                            <input type="email" id="email" class="form-control placeholdertext" placeholder="Email" style="background-color: #444; color: #fff; border: 1px solid #666;">
+                        </div>
+                        <div class="mb-3">
+                            <label for="gender" class="form-label" style="color: #999999;">Gender</label>
+                            <select id="gender" class="form-select" style="background-color: #444; color: #fff; border: 1px solid #666; ">
+                                <option value="male" style="color: #999999;">Male</option>
+                                <option value="female" style="color: #999999;">Female</option>
+                                <option value="other" style="color: #999999;">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="membership" class="form-label" style="color: #999999;">Membership</label>
+                            <select id="membership" class="form-select" style="background-color: #444; color: #fff; border: 1px solid #666;">
+                                <option value="basic" style="color: #999999;">Basic Membership</option>
+                                <option value="intermediate" style="color: #999999;">Intermediate Membership</option>
+                                <option value="advanced" style="color: #999999;">Advanced Membership</option>
+                                <option value="elite" style="color: #999999;">Elite Membership</option>
+                                <option value="private" style="color: #999999;">Private Tuition</option>
+                                <option value="junior" style="color: #999999;">Junior Membership</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="martialArts" class="form-label" style="color: #999999;">Martial Arts</label>
+                            <select id="martialArts" class="form-select" style="background-color: #444; color: #fff; border: 1px solid #666;">
+                                <option value="karate" style="color: #999999;">Karate</option>
+                                <option value="jiu-jitsu" style="color: #999999;">Jiu-Jitsu</option>
+                                <option value="judo" style="color: #999999;">Judo</option>
+                                <option value="muay-thai" style="color: #999999;">Muay Thai</option>
+                                <option value="self-defense" style="color: #999999;">Self-Defense Classes</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 text-center">
+                            <button class="btn btn-outline-danger btn-block mx-auto" type="submit">Submit</button>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer></footer>
+<script src="jquery.js"></script>
+</body>
+</html>
